@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <canvas id="hanoiCanvas" width="700" height="500"></canvas>
+
+    <!-- Controls for selecting number of disks and starting the game -->
+    <div id="controls">
+        <label for="numDisks">Number of Disks (4 to 10): </label>
+        <input type="number" id="numDisks" value="4" min="4" max="10">
+        <button id="startButton">Start Game</button>
+    </div>
+
+    
+    <script src="towersHanoiScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Styling for the canvas */
+canvas {
+  background-color: #b1a7a7; 
+  display: block; /* Block display to take full width */
+  margin: 0 auto; 
+}
+
+/* Styling for the control section */
+#controls {
+  text-align: center; 
+  margin-top: 25px; 
+}

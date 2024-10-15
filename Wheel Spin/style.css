@@ -1,0 +1,30 @@
+/* Container styling for the spin wheel*/
+#wheel-container {
+  position: relative; 
+  margin: 50px auto;  
+  width: 300px;      
+  height: 300px;      
+}
+
+/* Component:The red pointer at the top of the wheel, which points at the segment that gets selected */
+#pointer {
+  width: 0; 
+  height: 0; 
+  
+  /* Creates the triangular shape by adjusting the borders */
+  border-left: 20px solid transparent;  
+  border-right: 20px solid transparent; 
+  border-bottom: 30px solid red; 
+
+  position: absolute; 
+  top: -20px;         
+  left: 50%;          
+  transform: translateX(-50%); /* Ensure the pointer is perfectly centered */
+}
+
+/*  Component: spinning wheel */
+#wheel {
+  border-radius: 50%; 
+  border: 10px solid black; 
+  transition: transform 5s ease-out; 
+}
